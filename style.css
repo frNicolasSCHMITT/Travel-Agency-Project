@@ -13,3 +13,21 @@
     font-size: 45px;
     font-weight: lighter;
 }
+.img1{
+    z-index: 10;
+   
+}
+.img2{
+    height: 500px;
+    position: absolute;
+    z-index: 20;
+    padding: 5%;
+}
+.bleu{
+    position: absolute;
+    z-index: -1;
+    height: 300px;
+    width: 600px;
+    background-color: lightblue;
+    opacity: 70%;
+}
