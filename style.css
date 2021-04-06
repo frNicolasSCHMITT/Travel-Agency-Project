@@ -13,15 +13,8 @@
     font-size: 45px;
     font-weight: lighter;
 }
-.img1{
-    z-index: 10;
-   
-}
 .img2{
     height: 500px;
-    position: absolute;
-    z-index: 20;
-    padding: 5%;
 }
 .bleu{
     position: absolute;
@@ -30,4 +23,23 @@
     width: 600px;
     background-color: lightblue;
     opacity: 70%;
+}
+@media screen and (max-width:769px) {
+    .bleu{
+        display: none;
+    }
+    .quart, .quartext, .quartimg {
+        padding: 0;
+    }
+}
+@media screen and (min-width:769px){
+    .img1{
+        z-index: 10;
+    }
+    .img2{
+        height: 500px;
+        position: absolute;
+        z-index: 20;
+        padding: 5%;
+    }
 }
